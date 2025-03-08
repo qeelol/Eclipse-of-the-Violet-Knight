@@ -6,7 +6,7 @@ Now that I'm more familiar with GitHub (since my second semester), I've decided 
 There'll be some changes from the original code to make it more playable, though not all bugs will be addressed.
 Please refer to "Miscellaneous" for more information.
 
-# Controls (Fixed)
+# Controls (Unchangeable)
 A: Move Left
 D: Move Right
 Space: Jump
