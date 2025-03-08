@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="gamestyle.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <button id="fullscreen-btn">Go Fullscreen</button>
+    <div class="hidden">
+        <!------------------------------ player (main) ------------------------------->
+        <img src = "../../asset/spritesheet/female_knight_full_2.png" id="female_knight_full">
+
+        <!------------------------------ background (main) --------------------------->
+            <!-- map 1 (0) (sub) -->
+        <img src = "../../asset/parallax/map1/TopLayer.png" id="topLayer1">
+        <img src = "../../asset/parallax/map1/Light.png" id="light1">
+        <img src = "../../asset/parallax/map1/MiddleLayer.png" id="middleLayer1">
+        <img src = "../../asset/parallax/map1/DownLayer.png" id="bottomLayer1">
+        <img src = "../../asset/parallax/map1/Sky.png" id="sky1">
+            <!-- map 2 (1) (sub) -->
+        <img src = "../../asset/parallax/map2/6.png" id="topLayer2">
+        <img src = "../../asset/parallax/map2/5.png" id="fog2">
+        <img src = "../../asset/parallax/map2/4.png" id="middleLayer2">
+        <img src = "../../asset/parallax/map2/3.png" id="light2">
+        <img src = "../../asset/parallax/map2/2.png" id="tree2">
+        <img src = "../../asset/parallax/map2/1.png" id="bottomLayer2">
+
+        <!------------------------------ enemies (main) ----------------------------->
+        <img src = "../../asset/enemies/Nightborne/NightBorne.png" id="nightborne">
+        <img src = "../../asset/enemies/Skeleton/skeleton.png" id="skeleton">
+            <!------------ bosses (sub) -------------------->
+                <!------- golem (sub2) -------->
+        <img src = "../../asset/enemies/Golem/PNG_sheet/Character_sheet.png" id="golem">
+                    <!-- attacks (sub3) -->
+        <img src = "../../asset/enemies/Golem/weapon_PNG/arm_projectile.png" id="golem_projectile">
+        <img src = "../../asset/enemies/Golem/weapon_PNG/Laser_sheet.png" id="golem_laser">
+
+        <!------------------------------- misc. (main) ---------------------------->
+            <!-- healthbar (sub) -->
+        <img src = "../../asset/healthbar/Heart.png" id="heart">
+        <img src = "../../asset/healthbar/healthbar.png" id="healthbar">
+        <img src = "../../asset/healthbar/bar.png" id="bar">
+        <img src = "../../asset/enemies/Boss_healthbar/bar.png" id="bossbar">
+        <img src = "../../asset/enemies/Boss_healthbar/health.png" id="bosshealth">
+            <!-- heals (sub) -->
+        <img src = "../../asset/healthbar/healing_item.png" id="heals">
+        
+            <!-- end screens (sub)-->
+        <img src = "../../asset/gameover/gameover.png" id="gameover">
+        <img src = "../../asset/gameover/victory.png" id="victory">
+
+    </div>
+
+    <script src="gamescript.js"></script>
+</body>
+</html>
