@@ -2,8 +2,7 @@
 
 Thank you for checking this repository out!
 I made a short Metroidvania game for Nanyang Polytechnic's Year 1 Semester 1 Web Development module, which is my first ever programming project after 3 months of learning basic web development.
-
-Now that I'm more familiar with GitHub (since my second semester), I've decided to share this game to GitHub.
+Now that I'm more familiar with GitHub (since my second semester), I've decided to share this game to GitHub. 
 There'll be some changes from the original code to make it more playable, though not all bugs will be addressed.
 Please refer to "Miscellaneous" for more information.
 
